@@ -1,32 +1,38 @@
-# Getting Started with Create React App
+# Bem-vindo à Aplicação de Renderização de Círculos!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts Disponíveis
 
-In the project directory, you can run:
-
+No diretório do projeto, você pode executar:
+### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este comando inicia a aplicação no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver a aplicação em ação.
 
 <p align="center">
-  Aplicação para renderizar circulo na tela.
+  <b>Uma Aplicação para Criar e Gerenciar Círculos na Tela</b>
 </p>
 
-## REQUISITOS
-Desenvolva uma aplicação em que:
 
-- o usuário pode clicar em qualquer lugar da página.
-- deve-se renderizar um pequeno círculo na posição clicada.
-- A cada clique, mantém-se os círculos já criados e renderiza-se um novo.
-- Crie duas funcionalidades para a aplicação:
-  - Dsfazer (undo)
-  - Refazer (redo)
+![GIF de Exemplo](src/assets/undu-redo.gif)
 
-## TECNOLOGIAS 
-Projeto desenvolvido com a seguinte tecnologia:
+## Requisitos do Projeto
 
-- **React JS** 
+Este projeto apresenta as seguintes funcionalidades:
 
+- Os usuários podem clicar em qualquer lugar na página.
+- Um pequeno círculo será renderizado na posição do clique.
+- A cada clique, os círculos criados anteriormente são mantidos e um novo é adicionado.
+- Além disso, duas funcionalidades foram implementadas:
+  - Desfazer (undo): Permite reverter a última ação (criação de círculo).
+  - Refazer (redo): Restaura a última ação desfeita.
+
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando a seguinte tecnologia:
+
+- **React JS**
+
+Vamos soltar a imaginação e se divertir criando círculos!
